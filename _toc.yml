@@ -8,12 +8,13 @@ root: intro
 parts:
   - caption: Introduction
     chapters:
-    - file : src/introduction.ipynb
+    - file : src/En/introduction.ipynb
 
-# parts:
-#   - caption: Projects
-#     chapters:
-#     - file : src/introduction.ipynb
+parts:
+  - caption: Projects
+    chapters:
+    - file : src/En/TG_Forms.ipynb
+  
 
 
 # chapters:
