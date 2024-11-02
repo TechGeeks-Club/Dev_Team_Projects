@@ -2,18 +2,14 @@
 # Learn more at https://jupyterbook.org/customize/toc.html
 
 format: jb-book
-root: intro
+root: src/En/introduction.ipynb
 
-
-parts:
-  - caption: Introduction
-    chapters:
-    - file : src/En/introduction.ipynb
 
 parts:
   - caption: Projects
     chapters:
-    - file : src/En/TG_Forms.ipynb
+    - file : src/En/TG_Froms.ipynb
+    
   
 
 
