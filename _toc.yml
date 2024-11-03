@@ -9,6 +9,7 @@ parts:
   - caption: Projects
     chapters:
     - file : src/En/TG_Froms.ipynb
+    - file : src/En/Courses.ipynb
     
   
 
