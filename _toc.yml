@@ -9,6 +9,9 @@ parts:
   - caption: Projects
     chapters:
     - file : src/En/TG_Froms.ipynb
+    - file : src/En/Courses.ipynb
+    - file : src/En/Social_management_system.ipynb
+    - file : src/En/SolveIt.ipynb
     
   
 
