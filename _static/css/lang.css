@@ -1,0 +1,9 @@
+.lang{
+    color: #dd8b18;
+    text-decoration: underline;
+}
+
+.lang:hover{
+    color: #aa762e;
+    text-decoration: underline;
+}
