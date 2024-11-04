@@ -1,0 +1,666 @@
+
+<!DOCTYPE html>
+
+
+<html lang="en" data-content_root="../../" >
+
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <title>TG Agregation System &#8212; Projects Terms of Reference</title>
+  
+  
+  
+  <script data-cfasync="false">
+    document.documentElement.dataset.mode = localStorage.getItem("mode") || "";
+    document.documentElement.dataset.theme = localStorage.getItem("theme") || "";
+  </script>
+  <!-- 
+    this give us a css class that will be invisible only if js is disabled 
+  -->
+  <noscript>
+    <style>
+      .pst-js-only { display: none !important; }
+
+    </style>
+  </noscript>
+  
+  <!-- Loaded before other Sphinx assets -->
+  <link href="../../_static/styles/theme.css?digest=26a4bc78f4c0ddb94549" rel="stylesheet" />
+<link href="../../_static/styles/pydata-sphinx-theme.css?digest=26a4bc78f4c0ddb94549" rel="stylesheet" />
+
+    <link rel="stylesheet" type="text/css" href="../../_static/pygments.css?v=fa44fd50" />
+    <link rel="stylesheet" type="text/css" href="../../_static/styles/sphinx-book-theme.css?v=a3416100" />
+    <link rel="stylesheet" type="text/css" href="../../_static/togglebutton.css?v=13237357" />
+    <link rel="stylesheet" type="text/css" href="../../_static/copybutton.css?v=76b2166b" />
+    <link rel="stylesheet" type="text/css" href="../../_static/mystnb.4510f1fc1dee50b3e5859aac5469c37c29e427902b24a333a5f9fcb2f0b3ac41.css" />
+    <link rel="stylesheet" type="text/css" href="../../_static/sphinx-thebe.css?v=4fa983c6" />
+    <link rel="stylesheet" type="text/css" href="../../_static/sphinx-design.min.css?v=95c83b7e" />
+    <link rel="stylesheet" type="text/css" href="../../_static/css/lang.css?v=88a90c46" />
+  
+  <!-- So that users can add custom icons -->
+  <script src="../../_static/scripts/fontawesome.js?digest=26a4bc78f4c0ddb94549"></script>
+  <!-- Pre-loaded scripts that we'll load fully later -->
+  <link rel="preload" as="script" href="../../_static/scripts/bootstrap.js?digest=26a4bc78f4c0ddb94549" />
+<link rel="preload" as="script" href="../../_static/scripts/pydata-sphinx-theme.js?digest=26a4bc78f4c0ddb94549" />
+
+    <script src="../../_static/documentation_options.js?v=9eb32ce0"></script>
+    <script src="../../_static/doctools.js?v=9bcbadda"></script>
+    <script src="../../_static/sphinx_highlight.js?v=dc90522c"></script>
+    <script src="../../_static/clipboard.min.js?v=a7894cd8"></script>
+    <script src="../../_static/copybutton.js?v=f281be69"></script>
+    <script src="../../_static/scripts/sphinx-book-theme.js?v=887ef09a"></script>
+    <script>let toggleHintShow = 'Click to show';</script>
+    <script>let toggleHintHide = 'Click to hide';</script>
+    <script>let toggleOpenOnPrint = 'true';</script>
+    <script src="../../_static/togglebutton.js?v=4a39c7ea"></script>
+    <script>var togglebuttonSelector = '.toggle, .admonition.dropdown';</script>
+    <script src="../../_static/design-tabs.js?v=f930bc37"></script>
+    <script>const THEBE_JS_URL = "https://unpkg.com/thebe@0.8.2/lib/index.js"; const thebe_selector = ".thebe,.cell"; const thebe_selector_input = "pre"; const thebe_selector_output = ".output, .cell_output"</script>
+    <script async="async" src="../../_static/sphinx-thebe.js?v=c100c467"></script>
+    <script>var togglebuttonSelector = '.toggle, .admonition.dropdown';</script>
+    <script>const THEBE_JS_URL = "https://unpkg.com/thebe@0.8.2/lib/index.js"; const thebe_selector = ".thebe,.cell"; const thebe_selector_input = "pre"; const thebe_selector_output = ".output, .cell_output"</script>
+    <script>DOCUMENTATION_OPTIONS.pagename = 'src/Ar/TG_Agregation_System';</script>
+    <script src="../../_static/js/lang.js?v=a9b36ae9"></script>
+    <link rel="icon" href="../../_static/Logo_01.png"/>
+    <link rel="index" title="Index" href="../../genindex.html" />
+    <link rel="search" title="Search" href="../../search.html" />
+  <meta name="viewport" content="width=device-width, initial-scale=1"/>
+  <meta name="docsearch:language" content="en"/>
+  <meta name="docsearch:version" content="" />
+  </head>
+  
+  
+  <body data-bs-spy="scroll" data-bs-target=".bd-toc-nav" data-offset="180" data-bs-root-margin="0px 0px -60%" data-default-mode="">
+
+  
+  
+  <div id="pst-skip-link" class="skip-link d-print-none"><a href="#main-content">Skip to main content</a></div>
+  
+  <div id="pst-scroll-pixel-helper"></div>
+  
+  <button type="button" class="btn rounded-pill" id="pst-back-to-top">
+    <i class="fa-solid fa-arrow-up"></i>Back to top</button>
+
+  
+  <dialog id="pst-search-dialog">
+    
+<form class="bd-search d-flex align-items-center"
+      action="../../search.html"
+      method="get">
+  <i class="fa-solid fa-magnifying-glass"></i>
+  <input type="search"
+         class="form-control"
+         name="q"
+         placeholder="Search this book..."
+         aria-label="Search this book..."
+         autocomplete="off"
+         autocorrect="off"
+         autocapitalize="off"
+         spellcheck="false"/>
+  <span class="search-button__kbd-shortcut"><kbd class="kbd-shortcut__modifier">Ctrl</kbd>+<kbd>K</kbd></span>
+</form>
+  </dialog>
+
+  <div class="pst-async-banner-revealer d-none">
+  <aside id="bd-header-version-warning" class="d-none d-print-none" aria-label="Version warning"></aside>
+</div>
+
+  
+    <header class="bd-header navbar navbar-expand-lg bd-navbar d-print-none">
+    </header>
+  
+
+  <div class="bd-container">
+    <div class="bd-container__inner bd-page-width">
+      
+      
+      
+        
+      
+      <dialog id="pst-primary-sidebar-modal"></dialog>
+      <div id="pst-primary-sidebar" class="bd-sidebar-primary bd-sidebar">
+        
+
+  
+  <div class="sidebar-header-items sidebar-primary__section">
+    
+    
+    
+    
+  </div>
+  
+    <div class="sidebar-primary-items__start sidebar-primary__section">
+        <div class="sidebar-primary-item">
+
+  
+    
+  
+
+<a class="navbar-brand logo" href="../En/introduction.html">
+  
+  
+  
+  
+  
+    
+    
+      
+    
+    
+    <img src="../../_static/Logo_03.png" class="logo__image only-light" alt="Projects Terms of Reference - Home"/>
+    <img src="../../_static/Logo_03.png" class="logo__image only-dark pst-js-only" alt="Projects Terms of Reference - Home"/>
+  
+  
+</a></div>
+        <div class="sidebar-primary-item">
+
+<button class="btn search-button-field search-button__button pst-js-only" title="Search" aria-label="Search" data-bs-placement="bottom" data-bs-toggle="tooltip">
+ <i class="fa-solid fa-magnifying-glass"></i>
+ <span class="search-button__default-text">Search</span>
+ <span class="search-button__kbd-shortcut"><kbd class="kbd-shortcut__modifier">Ctrl</kbd>+<kbd class="kbd-shortcut__modifier">K</kbd></span>
+</button></div>
+        <div class="sidebar-primary-item"><nav class="bd-links bd-docs-nav" aria-label="Main">
+    <div class="bd-toc-item navbar-nav active">
+        
+        <ul class="nav bd-sidenav bd-sidenav__home-link">
+            <li class="toctree-l1">
+                <a class="reference internal" href="../En/introduction.html">
+                    Introduction
+                </a>
+            </li>
+        </ul>
+        <p aria-level="2" class="caption" role="heading"><span class="caption-text">TG Projects</span></p>
+<ul class="nav bd-sidenav">
+<li class="toctree-l1"><a class="reference internal" href="../En/TG_Froms.html">TG Forms</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../En/TG_Courses.html">TG Courses</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../En/TG_blocks.html">TG Blocks</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../En/TG_Agregation_System.html">TG Agregation System</a></li>
+</ul>
+
+    </div>
+</nav></div>
+    </div>
+  
+  
+  <div class="sidebar-primary-items__end sidebar-primary__section">
+  </div>
+  
+  <div id="rtd-footer-container"></div>
+
+
+      </div>
+      
+      <main id="main-content" class="bd-main" role="main">
+        
+        
+
+<div class="sbt-scroll-pixel-helper"></div>
+
+          <div class="bd-content">
+            <div class="bd-article-container">
+              
+              <div class="bd-header-article d-print-none">
+<div class="header-article-items header-article__inner">
+  
+    <div class="header-article-items__start">
+      
+        <div class="header-article-item"><button class="sidebar-toggle primary-toggle btn btn-sm" title="Toggle primary sidebar" data-bs-placement="bottom" data-bs-toggle="tooltip">
+  <span class="fa-solid fa-bars"></span>
+</button></div>
+      
+    </div>
+  
+  
+    <div class="header-article-items__end">
+      
+        <div class="header-article-item">
+
+<div class="article-header-buttons">
+
+
+
+
+
+<div class="dropdown dropdown-source-buttons">
+  <button class="btn dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false" aria-label="Source repositories">
+    <i class="fab fa-github"></i>
+  </button>
+  <ul class="dropdown-menu">
+      
+      
+      
+      <li><a href="https://github.com/TechGeeks-Club/Dev_Team_Projects" target="_blank"
+   class="btn btn-sm btn-source-repository-button dropdown-item"
+   title="Source repository"
+   data-bs-placement="left" data-bs-toggle="tooltip"
+>
+  
+
+<span class="btn__icon-container">
+  <i class="fab fa-github"></i>
+  </span>
+<span class="btn__text-container">Repository</span>
+</a>
+</li>
+      
+      
+      
+      
+      <li><a href="https://github.com/TechGeeks-Club/Dev_Team_Projects/issues/new?title=Issue%20on%20page%20%2Fsrc/Ar/TG_Agregation_System.html&body=Your%20issue%20content%20here." target="_blank"
+   class="btn btn-sm btn-source-issues-button dropdown-item"
+   title="Open an issue"
+   data-bs-placement="left" data-bs-toggle="tooltip"
+>
+  
+
+<span class="btn__icon-container">
+  <i class="fas fa-lightbulb"></i>
+  </span>
+<span class="btn__text-container">Open issue</span>
+</a>
+</li>
+      
+  </ul>
+</div>
+
+
+
+
+
+
+<div class="dropdown dropdown-download-buttons">
+  <button class="btn dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false" aria-label="Download this page">
+    <i class="fas fa-download"></i>
+  </button>
+  <ul class="dropdown-menu">
+      
+      
+      
+      <li><a href="../../_sources/src/Ar/TG_Agregation_System.ipynb" target="_blank"
+   class="btn btn-sm btn-download-source-button dropdown-item"
+   title="Download source file"
+   data-bs-placement="left" data-bs-toggle="tooltip"
+>
+  
+
+<span class="btn__icon-container">
+  <i class="fas fa-file"></i>
+  </span>
+<span class="btn__text-container">.ipynb</span>
+</a>
+</li>
+      
+      
+      
+      
+      <li>
+<button onclick="window.print()"
+  class="btn btn-sm btn-download-pdf-button dropdown-item"
+  title="Print to PDF"
+  data-bs-placement="left" data-bs-toggle="tooltip"
+>
+  
+
+<span class="btn__icon-container">
+  <i class="fas fa-file-pdf"></i>
+  </span>
+<span class="btn__text-container">.pdf</span>
+</button>
+</li>
+      
+  </ul>
+</div>
+
+
+
+
+<button onclick="toggleFullScreen()"
+  class="btn btn-sm btn-fullscreen-button"
+  title="Fullscreen mode"
+  data-bs-placement="bottom" data-bs-toggle="tooltip"
+>
+  
+
+<span class="btn__icon-container">
+  <i class="fas fa-expand"></i>
+  </span>
+
+</button>
+
+
+
+<button class="btn btn-sm nav-link pst-navbar-icon theme-switch-button pst-js-only" aria-label="Color mode" data-bs-title="Color mode"  data-bs-placement="bottom" data-bs-toggle="tooltip">
+  <i class="theme-switch fa-solid fa-sun                fa-lg" data-mode="light" title="Light"></i>
+  <i class="theme-switch fa-solid fa-moon               fa-lg" data-mode="dark"  title="Dark"></i>
+  <i class="theme-switch fa-solid fa-circle-half-stroke fa-lg" data-mode="auto"  title="System Settings"></i>
+</button>
+
+
+<button class="btn btn-sm pst-navbar-icon search-button search-button__button pst-js-only" title="Search" aria-label="Search" data-bs-placement="bottom" data-bs-toggle="tooltip">
+    <i class="fa-solid fa-magnifying-glass fa-lg"></i>
+</button>
+<button class="sidebar-toggle secondary-toggle btn btn-sm" title="Toggle secondary sidebar" data-bs-placement="bottom" data-bs-toggle="tooltip">
+    <span class="fa-solid fa-list"></span>
+</button>
+</div></div>
+      
+    </div>
+  
+</div>
+</div>
+              
+              
+
+<div id="jb-print-docs-body" class="onlyprint">
+    <h1>TG Agregation System</h1>
+    <!-- Table of contents -->
+    <div id="print-main-content">
+        <div id="jb-print-toc">
+            
+            <div>
+                <h2> Contents </h2>
+            </div>
+            <nav aria-label="Page">
+                <ul class="visible nav section-nav flex-column">
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#id1">فهرس</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#i">I. المقدمة</a><ul class="nav section-nav flex-column">
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#i-1">I.1 بيان المشكلة:</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#i-2">I.2 نظرة عامة على المشروع:</a></li>
+</ul>
+</li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#ii">II. أهداف المشروع</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#iii">III. الميزات الرئيسية:</a><ul class="nav section-nav flex-column">
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#iii-1">III.1 مساحة المستخدم:</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#iii-2">III.2 مساحة المسؤول:</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#iii-3">III.3 التكاملات:</a></li>
+</ul>
+</li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#iv">IV. تكنولوجيا البرمجيات</a><ul class="nav section-nav flex-column">
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#iv-1">IV.1 تقنيات الواجهة الأمامية:</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#iv-2">IV.2 تقنيات الخلفية:</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#iv-3">IV.3 تقنيات قاعدة البيانات:</a></li>
+</ul>
+</li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#v">V. الجمهور المستهدف:</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#vi">VI. النتائج المتوقعة:</a></li>
+</ul>
+            </nav>
+        </div>
+    </div>
+</div>
+
+              
+                
+<div id="searchbox"></div>
+                <article class="bd-article">
+                  
+  <section class="tex2jax_ignore mathjax_ignore" id="tg-agregation-system">
+<h1>TG Agregation System<a class="headerlink" href="#tg-agregation-system" title="Link to this heading">#</a></h1>
+<hr class="docutils" />
+<div class="sd-sphinx-override sd-btn sd-text-wrap lang docutils">
+<p>غير اللغة</p>
+</div>
+<div dir="rtl">
+<section id="id1">
+<h2>فهرس<a class="headerlink" href="#id1" title="Link to this heading">#</a></h2>
+<ul class="simple">
+<li><p><a class="reference internal" href="#i-%D8%A7%D9%84%D9%85%D9%82%D8%AF%D9%85%D8%A9"><span class="xref myst">I. المقدمة</span></a></p>
+<ul>
+<li><p><a class="reference internal" href="#i1-%D8%A8%D9%8A%D8%A7%D9%86-%D8%A7%D9%84%D9%85%D8%B4%D9%83%D9%84%D8%A9"><span class="xref myst">I.1 بيان المشكلة</span></a></p></li>
+<li><p><a class="reference internal" href="#i2-%D9%86%D8%B8%D8%B1%D8%A9-%D8%B9%D8%A7%D9%85%D8%A9-%D8%B9%D9%84%D9%89-%D8%A7%D9%84%D9%85%D8%B4%D8%B1%D9%88%D8%B9"><span class="xref myst">I.2 نظرة عامة على المشروع</span></a></p></li>
+</ul>
+</li>
+<li><p><a class="reference internal" href="#ii-%D8%A3%D9%87%D8%AF%D8%A7%D9%81-%D8%A7%D9%84%D9%85%D8%B4%D8%B1%D9%88%D8%B9"><span class="xref myst">II. أهداف المشروع</span></a></p></li>
+<li><p><a class="reference internal" href="#iii-%D8%A7%D9%84%D9%85%D9%8A%D8%B2%D8%A7%D8%AA-%D8%A7%D9%84%D8%B1%D8%A6%D9%8A%D8%B3%D9%8A%D8%A9"><span class="xref myst">III. الميزات الرئيسية</span></a></p>
+<ul>
+<li><p><a class="reference internal" href="#iii1-%D9%85%D8%B3%D8%A7%D8%AD%D8%A9-%D8%A7%D9%84%D9%85%D8%B3%D8%AA%D8%AE%D8%AF%D9%85"><span class="xref myst">III.1 مساحة المستخدم</span></a></p></li>
+<li><p><a class="reference internal" href="#iii2-%D9%85%D8%B3%D8%A7%D8%AD%D8%A9-%D8%A7%D9%84%D8%A5%D8%AF%D8%A7%D8%B1%D8%A9"><span class="xref myst">III.2 مساحة الإدارة</span></a></p></li>
+<li><p><a class="reference internal" href="#iii3-%D8%A7%D9%84%D8%AA%D9%83%D8%A7%D9%85%D9%84%D8%A7%D8%AA"><span class="xref myst">III.3 التكاملات</span></a></p></li>
+</ul>
+</li>
+<li><p><a class="reference internal" href="#iv-%D8%AA%D9%82%D9%86%D9%8A%D8%A7%D8%AA-%D8%A7%D9%84%D8%AA%D9%83%D9%86%D9%88%D9%84%D9%88%D8%AC%D9%8A%D8%A7"><span class="xref myst">IV. تقنيات التكنولوجيا</span></a></p>
+<ul>
+<li><p><a class="reference internal" href="#iv1-%D8%AA%D9%82%D9%86%D9%8A%D8%A7%D8%AA-%D8%A7%D9%84%D9%88%D8%A7%D8%AC%D9%87%D8%A9-%D8%A7%D9%84%D8%A3%D9%85%D8%A7%D9%85%D9%8A%D8%A9"><span class="xref myst">IV.1 تقنيات الواجهة الأمامية</span></a></p></li>
+<li><p><a class="reference internal" href="#iv2-%D8%AA%D9%82%D9%86%D9%8A%D8%A7%D8%AA-%D8%A7%D9%84%D9%88%D8%A7%D8%AC%D9%87%D8%A9-%D8%A7%D9%84%D8%AE%D9%84%D9%81%D9%8A%D8%A9"><span class="xref myst">IV.2 تقنيات الواجهة الخلفية</span></a></p></li>
+<li><p><a class="reference internal" href="#iv3-%D8%AA%D9%82%D9%86%D9%8A%D8%A7%D8%AA-%D9%82%D9%88%D8%A7%D8%B9%D8%AF-%D8%A7%D9%84%D8%A8%D9%8A%D8%A7%D9%86%D8%A7%D8%AA"><span class="xref myst">IV.3 تقنيات قواعد البيانات</span></a></p></li>
+</ul>
+</li>
+<li><p><a class="reference internal" href="#v-%D8%A7%D9%84%D8%AC%D9%85%D9%87%D9%88%D8%B1-%D8%A7%D9%84%D9%85%D8%B3%D8%AA%D9%87%D8%AF%D9%81"><span class="xref myst">V. الجمهور المستهدف</span></a></p></li>
+<li><p><a class="reference internal" href="#vi-%D8%A7%D9%84%D9%86%D8%AA%D8%A7%D8%A6%D8%AC-%D8%A7%D9%84%D9%85%D8%AA%D9%88%D9%82%D8%B9%D8%A9"><span class="xref myst">VI. النتائج المتوقعة</span></a></p></li>
+</ul>
+<div><div dir="rtl">
+</section>
+<section id="i">
+<h2>I. المقدمة<a class="headerlink" href="#i" title="Link to this heading">#</a></h2>
+<section id="i-1">
+<h3>I.1 بيان المشكلة:<a class="headerlink" href="#i-1" title="Link to this heading">#</a></h3>
+<p>أصبحت وسائل التواصل الاجتماعي جزءًا لا يتجزأ من حياتنا، خاصة في عالم الأعمال. سواء كان ذلك لأغراض التسويق، خدمة العملاء، أو حتى للأندية والمجموعات الصغيرة مثل مجموعتنا، تلعب دورًا حاسمًا. ومع ذلك، مع وجود العديد من منصات التواصل الاجتماعي المتاحة، يمكن أن يكون متابعة جميعها تحديًا يستغرق الكثير من الوقت.</p>
+</section>
+<section id="i-2">
+<h3>I.2 نظرة عامة على المشروع:<a class="headerlink" href="#i-2" title="Link to this heading">#</a></h3>
+<p><strong>نظام تجميع TG</strong> هو نظام متخصص لإدارة رسائل وسائل التواصل الاجتماعي مصمم لجمع جميع الاتصالات من منصات التواصل الاجتماعي المختلفة في صندوق بريد موحد. من خلال تجميع الرسائل، والتعليقات، والإشارات، يمكّن هذا النظام المستخدمين من عرض، وتحديد أولويات، والرد على تفاعلات الجمهور بسلاسة، دون الحاجة للتبديل بين تطبيقات وسائل التواصل الاجتماعي. المنصة مثالية للأعمال والأفراد الذين يحتاجون إلى التعامل بكفاءة مع كميات كبيرة من رسائل وسائل التواصل الاجتماعي والبقاء على تواصل مع جمهورهم.</p>
+<div><div dir="rtl">
+</section>
+</section>
+<section id="ii">
+<h2>II. أهداف المشروع<a class="headerlink" href="#ii" title="Link to this heading">#</a></h2>
+<ul class="simple">
+<li><p><strong>رسائل موحدة</strong><br />
+جمع جميع رسائل وسائل التواصل الاجتماعي في صندوق بريد واحد لتبسيط إدارة التفاعلات.</p></li>
+<li><p><strong>معالجة استجابة فعالة</strong><br />
+تمكين المستخدمين من الرد مباشرة من المنصة، مما يعزز وقت الاستجابة ورضا المستخدم.</p></li>
+<li><p><strong>تنظيم الرسائل وتحديد الأولويات</strong><br />
+توفير أدوات لتنظيم، وتصنيف، وتحديد أولويات الرسائل لتحقيق تفاعل أكثر فعالية.</p></li>
+<li><p><strong>تحسين رضا العملاء</strong><br />
+تحسين معدلات استجابة العملاء وتفاعلهم من خلال تسهيل إدارة كميات كبيرة من الرسائل عبر المنصات.</p></li>
+<li><p><strong>نسخ احتياطي للبيانات</strong><br />
+ضمان استمرارية البيانات من خلال حلول نسخ احتياطي فعالة لمنع فقدان البيانات الحرجة.</p></li>
+</ul>
+<div>
+<div dir="rtl">
+</section>
+<section id="iii">
+<h2>III. الميزات الرئيسية:<a class="headerlink" href="#iii" title="Link to this heading">#</a></h2>
+<section id="iii-1">
+<h3>III.1 مساحة المستخدم:<a class="headerlink" href="#iii-1" title="Link to this heading">#</a></h3>
+<ul class="simple">
+<li><p><strong>صندوق بريد موحد:</strong>  جمع الرسائل من منصات التواصل الاجتماعي المتعددة في صندوق بريد واحد.</p></li>
+<li><p><strong>تحديد أولويات الرسائل:</strong>  تصفية الرسائل بناءً على الأولوية أو المشاعر أو معايير أخرى.</p></li>
+<li><p><strong>ردود مباشرة:</strong>  الرد على الرسائل مباشرة من المنصة.</p></li>
+<li><p><strong>وسم الرسائل:</strong>  تنظيم الرسائل من خلال وسمها بعلامات أو فئات.</p></li>
+<li><p><strong>بحث الرسائل:</strong>  البحث عن الرسائل بالكلمات المفتاحية أو المستخدمين أو معايير أخرى.</p></li>
+<li><p><strong>تحليلات بسيطة للرسائل:</strong>  تتبع حجم الرسائل، وأوقات الاستجابة، ومؤشرات أخرى.</p></li>
+<li><p><strong>التكامل مع واجهات برمجة التطبيقات لوسائل التواصل الاجتماعي:</strong>  الاتصال بمنصات التواصل الاجتماعي الشهيرة مثل فيسبوك، تويتر، إنستغرام، لينكدإن، تيليجرام، ديسكورد.</p></li>
+<li><p><strong>الإشعارات:</strong>  تلقي تنبيهات للرسائل الجديدة.</p></li>
+</ul>
+</section>
+<section id="iii-2">
+<h3>III.2 مساحة المسؤول:<a class="headerlink" href="#iii-2" title="Link to this heading">#</a></h3>
+<ul class="simple">
+<li><p><strong>لوحة التحكم:</strong>  عرض حجم الرسائل، وأوقات الاستجابة، ومؤشرات أخرى.</p></li>
+<li><p><strong>إدارة المستخدمين:</strong>  إدارة أدوار المستخدمين، والأذونات، ومستويات الوصول.</p></li>
+<li><p><strong>تحليلات متقدمة للرسائل:</strong>  تتبع حجم الرسائل، وأوقات الاستجابة، ومؤشرات أخرى.</p></li>
+<li><p><strong>الإعدادات والتكوين:</strong>  تخصيص إعدادات المنصة، والإشعارات، والميزات الأخرى.</p></li>
+<li><p><strong>نسخ احتياطي واستعادة البيانات:</strong>  ضمان استمرارية البيانات من خلال حلول نسخ احتياطي فعالة.</p></li>
+</ul>
+</section>
+<section id="iii-3">
+<h3>III.3 التكاملات:<a class="headerlink" href="#iii-3" title="Link to this heading">#</a></h3>
+<ul class="simple">
+<li><p><strong>واجهات برمجة التطبيقات لوسائل التواصل الاجتماعي:</strong>
+استخدام واجهات برمجة التطبيقات من فيسبوك، إنستغرام، تويتر، لينكدإن، وغيرها، لسحب الرسائل وإرسال الردود من منصة مركزية واحدة.</p></li>
+<li><p><strong>OAuth:</strong>
+دمج حسابات وسائل التواصل الاجتماعي بشكل آمن مع مصادقة المستخدم للوصول إلى الرسائل وإدارتها.</p></li>
+</ul>
+<div><div dir="rtl">
+</section>
+</section>
+<section id="iv">
+<h2>IV. تكنولوجيا البرمجيات<a class="headerlink" href="#iv" title="Link to this heading">#</a></h2>
+<section id="iv-1">
+<h3>IV.1 تقنيات الواجهة الأمامية:<a class="headerlink" href="#iv-1" title="Link to this heading">#</a></h3>
+<ul class="simple">
+<li><p>استخدم أي تقنيات واجهة أمامية تفضلها.</p></li>
+</ul>
+<blockquote>
+<div><p>نوصي باستخدام أطر تطبيق الصفحة الواحدة (SPA)، وelectron.js لتطبيقات سطح المكتب.</p>
+</div></blockquote>
+</section>
+<section id="iv-2">
+<h3>IV.2 تقنيات الخلفية:<a class="headerlink" href="#iv-2" title="Link to this heading">#</a></h3>
+<ul class="simple">
+<li><p>استخدم أي تقنيات خلفية تفضلها.</p></li>
+</ul>
+</section>
+<section id="iv-3">
+<h3>IV.3 تقنيات قاعدة البيانات:<a class="headerlink" href="#iv-3" title="Link to this heading">#</a></h3>
+<ul class="simple">
+<li><p>قاعدة بيانات SQL كقاعدة بيانات رئيسية.</p></li>
+<li><p>redis للتخزين المؤقت.</p></li>
+</ul>
+<div><div dir="rtl">
+</section>
+</section>
+<section id="v">
+<h2>V. الجمهور المستهدف:<a class="headerlink" href="#v" title="Link to this heading">#</a></h2>
+<ul class="simple">
+<li><p><strong>مديرو وسائل التواصل الاجتماعي وفرق التسويق الرقمي:</strong><br />
+محترفون يديرون عدة حسابات للعلامات التجارية والشركات.</p></li>
+<li><p><strong>الشركات الصغيرة والمتوسطة:</strong><br />
+رواد الأعمال وأصحاب الأعمال الصغيرة الذين يسعون لحلول وسائل التواصل الاجتماعي المبسطة.</p></li>
+<li><p><strong>وكالات التسويق:</strong><br />
+وكالات تتعامل مع عدة عملاء يحتاجون إلى التعاون والتقارير المعقدة.</p></li>
+</ul>
+<div><div dir="rtl">
+</section>
+<section id="vi">
+<h2>VI. النتائج المتوقعة:<a class="headerlink" href="#vi" title="Link to this heading">#</a></h2>
+<p>مع هذا النظام، سيشهد مدراء وسائل التواصل الاجتماعي، وفرق دعم العملاء، ومنشئو المحتوى طريقة أكثر سلاسة في إدارة المحادثات عبر المنصات. سيعزز النظام كفاءة التفاعل، مما يضمن استجابات في الوقت المناسب ويساعد المستخدمين على الحفاظ على رؤية واضحة لجميع التفاعلات من حسابات متعددة، مما يؤدي إلى تحسين رضا العملاء وتعزيز الوجود عبر الإنترنت.</p>
+<div></section>
+</section>
+
+    <script type="text/x-thebe-config">
+    {
+        requestKernel: true,
+        binderOptions: {
+            repo: "binder-examples/jupyter-stacks-datascience",
+            ref: "master",
+        },
+        codeMirrorConfig: {
+            theme: "abcdef",
+            mode: "python"
+        },
+        kernelOptions: {
+            name: "python3",
+            path: "./src\Ar"
+        },
+        predefinedOutput: true
+    }
+    </script>
+    <script>kernelName = 'python3'</script>
+
+                </article>
+              
+
+              
+              
+              
+              
+                <footer class="prev-next-footer d-print-none">
+                  
+<div class="prev-next-area">
+</div>
+                </footer>
+              
+            </div>
+            
+            
+              
+                <dialog id="pst-secondary-sidebar-modal"></dialog>
+                <div id="pst-secondary-sidebar" class="bd-sidebar-secondary bd-toc"><div class="sidebar-secondary-items sidebar-secondary__inner">
+
+
+  <div class="sidebar-secondary-item">
+  <div class="page-toc tocsection onthispage">
+    <i class="fa-solid fa-list"></i> Contents
+  </div>
+  <nav class="bd-toc-nav page-toc">
+    <ul class="visible nav section-nav flex-column">
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#id1">فهرس</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#i">I. المقدمة</a><ul class="nav section-nav flex-column">
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#i-1">I.1 بيان المشكلة:</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#i-2">I.2 نظرة عامة على المشروع:</a></li>
+</ul>
+</li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#ii">II. أهداف المشروع</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#iii">III. الميزات الرئيسية:</a><ul class="nav section-nav flex-column">
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#iii-1">III.1 مساحة المستخدم:</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#iii-2">III.2 مساحة المسؤول:</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#iii-3">III.3 التكاملات:</a></li>
+</ul>
+</li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#iv">IV. تكنولوجيا البرمجيات</a><ul class="nav section-nav flex-column">
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#iv-1">IV.1 تقنيات الواجهة الأمامية:</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#iv-2">IV.2 تقنيات الخلفية:</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#iv-3">IV.3 تقنيات قاعدة البيانات:</a></li>
+</ul>
+</li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#v">V. الجمهور المستهدف:</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#vi">VI. النتائج المتوقعة:</a></li>
+</ul>
+  </nav></div>
+
+</div></div>
+              
+            
+          </div>
+          <footer class="bd-footer-content">
+            
+<div class="bd-footer-content__inner container">
+  
+  <div class="footer-item">
+    
+<p class="component-author">
+By TechGeeks
+</p>
+
+  </div>
+  
+  <div class="footer-item">
+    
+
+  <p class="copyright">
+    
+      © Copyright 2023.
+      <br/>
+    
+  </p>
+
+  </div>
+  
+  <div class="footer-item">
+    
+  </div>
+  
+  <div class="footer-item">
+    
+  </div>
+  
+</div>
+          </footer>
+        
+
+      </main>
+    </div>
+  </div>
+  
+  <!-- Scripts loaded after <body> so the DOM is not blocked -->
+  <script defer src="../../_static/scripts/bootstrap.js?digest=26a4bc78f4c0ddb94549"></script>
+<script defer src="../../_static/scripts/pydata-sphinx-theme.js?digest=26a4bc78f4c0ddb94549"></script>
+
+  <footer class="bd-footer">
+  </footer>
+  </body>
+</html>
