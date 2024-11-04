@@ -6,11 +6,13 @@ root: src/En/introduction.ipynb
 
 
 parts:
-  - caption: Projects
+  - caption: TG Projects
     chapters:
     - file : src/En/TG_Froms.ipynb
     - file : src/En/TG_Courses.ipynb
-    - file : src/En/TG_TG_Agregation_System.ipynb
+    - file : src/En/TG_Agregation_System.ipynb
+
+    
     
   
 
