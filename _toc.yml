@@ -10,6 +10,7 @@ parts:
     chapters:
     - file : src/En/TG_Froms.ipynb
     - file : src/En/TG_Courses.ipynb
+    - file : src/En/TG_blocks.ipynb
     - file : src/En/TG_Agregation_System.ipynb
 
     
